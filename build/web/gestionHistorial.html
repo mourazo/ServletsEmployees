@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GESTIÓN HISTORIAL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+            <h1>HISTORIAL</h1>           
+        <h2>----------------------------------------------------</h2>        
+            <h2>VER HISTORIAL</h2>
+        <form action="ServletMostrarHistorial" method="POST">Presiona el botón ver el historial
+            <input type="submit" name="mostrarHistorial" value="MOSTRAR" />
+        </form>
+         <h2>-------------------------------------------------</h2>
+              <h2>INSERTAR INCIDENCIA HISTORIAL</h2>
+        <form action="insertarHistorial.html" method="POST">Presiona el botón mostrar para insertar incidencia en el historial
+            <input type="submit" name="insertar" value="INSERTAR" />
+        </form>
+         <h2>-------------------------------------------------</h2>
+              <h2>VER ÚLTIMO INICIO DE SESIÓN EMPLEADO</h2>
+        <form action="UltimoInicioDeSesionEmpleado.html" method="POST">Presiona el botón mostrar el último inicio de sesión de un empleado
+            <input type="submit" name="ultimoInicio" value="MOSTRAR" />
+        </form>
+           <h2>-------------------------------------------------</h2>
+              <h2>RANKING EMPLEADOS POR CANTIDAD INCIDENCIAS URGENTES</h2>
+        <form action="ServletRankingIncidenciasUrgentes" method="POST">Presiona el botón mostrar para ver el ranking de incidencias urgentes
+            <input type="submit" name="rankingUrgentes" value="MOSTRAR" />
+            </form>
+                  <h2>-------------------------------------------------</h2>
+              <h2>OBTENER LA POSICION DE UN EMPLEADO EN EL RANKING DE INCIDENCIAS</h2>
+        <form action="obtenerPosicionEmpleadoRanking.html" method="POST">Presiona el botón obtener la posición de un empleado en el ranking
+            <input type="submit" name="rankingPosicion" value="OBTENER" />
+             </form>
+             <h2>-------------------------------------------------</h2>
+       
+    </body>
+   
+</html>

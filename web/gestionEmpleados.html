@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GESTIÓN EMPLEADOS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body> 
+            <h1>EMPLEADOS</h1>           
+        <h2>----------------------------------------------------</h2>        
+            <h2>Ver todos los empleados</h2>
+        <form action="ServletMostrarEmpleados" method="POST">Presiona el botón ver los empleados
+            <input type="submit" name="mostrarEmpleados" value="CONSULTAR" />
+        </form>
+         <h2>-------------------------------------------------</h2>
+        <h2>AÑADIR EMPLEADO</h2>
+        <form action="insertarEmpleado.html" method="POST">Presiona el botón para añadir un empleado
+            <input type="submit" name="insertarEmpleado" value="INSERTAR" />   
+         </form>
+        <h2>-------------------------------------------------</h2>
+            <h2>VALIDAR ENTRADA</h2>
+        <form action="validarEntradaEmpleado.html" method="POST">Presiona el botón para validar la entrada de un usuario
+            <input type="submit" name="validar" value="VALIDAR" />   
+         </form>
+        <h2>-------------------------------------------------</h2>
+           <h2>MODIFICAR CONTRASEÑA</h2>
+        <form action="modificarContraseña.html" method="POST">Cambiar contraseña de empleado
+            <input type="submit" name="cambiar" value="CAMBIAR" />
+        </form>
+             <h2>-------------------------------------------------</h2>
+           <h2>MODIFICAR PERFIL</h2>
+        <form action="modificarPerfil.html" method="POST">Modificar el perfil de un usuario
+            <input type="submit" name="modificar" value="modificar" />
+        </form>
+        <h2>-------------------------------------------------</h2>
+           <h2>ELIMINAR</h2>
+        <form action="eliminarEmpleado.html" method="POST">Eliminar un empleado
+            <input type="submit" name="eliminar" value="ELIMINAR" />
+        </form>
+        <h2>-------------------------------------------------</h2>
+          <h2>VOLVER</h2>
+        <form action="index.jsp" method="POST">Página principal
+            <input type="submit" name="volver" value="VOLVER" />
+        </form>
+        <h2>-------------------------------------------------</h2>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GESTIÓN INCIDENCIAS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+       <body> 
+            <h1>INCIDENCIAS</h1>           
+        <h2>----------------------------------------------------</h2>        
+            <h2>VER INCIDENCIAS</h2>
+        <form action="ServletMostrarIncidencias" method="POST">Presiona el botón ver las incidencias
+            <input type="submit" name="mostrarIncidencias" value="MOSTRAR" />
+        </form>
+         <h2>-------------------------------------------------</h2>
+        <h2>OBTENER INCIDENCIA</h2>
+        <form action="obtenerIncidencia.html" method="POST">Presiona el botón para obtener incidencia a partir de su ID
+            <input type="submit" name="obtenerIncidencia" value="OBTENER" />   
+         </form>
+        <h2>-------------------------------------------------</h2>
+           <h2>CREAR</h2>
+        <form action="crearIncidencia.html" method="POST">Crear incidencia
+            <input type="submit" name="crear" value="CREAR" />
+        </form>
+        <h2>-------------------------------------------------</h2>
+         <h2>OBTENER INCIDENCIA PARA UN EMPLEADO (destino)</h2>
+        <form action="obtenerIncidenciaParaEmpleado.html" method="POST">Obtener las incidencias para un empleado
+            <input type="submit" name="crear" value="OBTENER" />
+        </form>
+        <h2>-------------------------------------------------</h2>
+         <h2>OBTENER INCIDENCIA DE UN EMPLEADO (origen)</h2>
+        <form action="obtenerIncidenciaDeEmpleado.html" method="POST">Obtener las incidencias de un empleado
+            <input type="submit" name="crear" value="OBTENER" />
+        </form>
+        <h2>-------------------------------------------------</h2>
+          <h2>VOLVER</h2>
+        <form action="index.jsp" method="POST">Página principal
+            <input type="submit" name="volver" value="VOLVER" />
+        </form>
+        <h2>-------------------------------------------------</h2>
+    </body>
+</html>

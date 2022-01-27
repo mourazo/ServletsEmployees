@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CREAR INCIDENCIA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+            <form action="ServletCrearIncidencia" method="POST">      
+            <p>Fecha y hora: <input type="text" name="fechahora"></p>
+            <p>Detalle:  <input type="text" name="detalle"></p>
+            <p>Tipo:  <input type="text" name="tipo"></p>
+            <p>Origen:  <input type="text" name="origen"></p>
+            <p>Destino:  <input type="text" name="destino"></p>
+            <input type="submit" value="insertar">
+        </form>
+    </body>
+</html>
